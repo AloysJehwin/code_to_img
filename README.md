@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CodeSnap - A Next.js Code to Image Generator
 
-## Getting Started
+## About the Project
+CodeSnap is a Next.js application that converts code snippets into visually appealing images. This project is useful for developers who want to share beautiful code snippets on social media, blogs, or documentation.
 
-First, run the development server:
+## Features
+- Syntax highlighting for various programming languages.
+- Customizable themes and background styles.
+- Adjustable image size and padding.
+- One-click export to PNG or JPG.
+- Supports multiple programming languages.
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/AloysJehwin/code_to_img
+cd code_to_img
+npm install
+```
+
+## Running the Project
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
+1. Enter your code snippet into the text area.
+2. Select the programming language for syntax highlighting.
+3. Customize the background, theme, and other settings.
+4. Click the "Generate Image" button.
+5. Download the generated image.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployment
 
-## Learn More
+To deploy on Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+vercel
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Pull requests are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`feature-new-feature`).
+3. Commit your changes.
+4. Push to your fork.
+5. Open a pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
