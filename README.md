@@ -18,6 +18,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/AloysJehwin/code_to_img
 cd code_to_img
 npm install
+npm run dev
 ```
 
 ## Running the Project
